@@ -5,8 +5,9 @@
  * It fetches questions from the backend and filters them based on the selected category.
  */
 
+
 import { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom'; // Combined into one line
 import axios from 'axios';
 import { useAuth } from '../context/AuthContext';
 
@@ -50,7 +51,7 @@ export default function Dashboard() {
         <h1>ArtSphere</h1>
         <div className="user-info">
           <span>Welcome, {username}</span>
-          <button onClick={handleLogout} className="logout-btn">Logout</button>
+          <Link to="/login" onClick={handleLogout} className="logout-btn">Logout</Link>
         </div>
       </header>
 
