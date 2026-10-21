@@ -1,5 +1,6 @@
 /* 
- * This component renders the Registration screen. It performs client side validation 
+ * FILE PURPOSE: 
+ * This component renders the Registration screen. It performs client-side validation 
  * (password length, matching passwords, terms checkbox) before sending the data to the backend API.
  * Error messages are displayed next to the invalid fields.
  */

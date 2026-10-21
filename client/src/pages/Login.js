@@ -1,4 +1,5 @@
 /* 
+ * FILE PURPOSE: 
  * This component renders the Login screen. It captures credentials, 
  * sends a POST request to the Express backend, and upon success, saves the JWT token 
  * to the global context and navigates the user to the Dashboard.

@@ -1,4 +1,5 @@
 /* 
+ * FILE PURPOSE: 
  * This component renders the main authenticated view. It features a header with 
  * user details and a logout button, a scrolling sidebar of categories, and a main content area. 
  * It fetches questions from the backend and filters them based on the selected category.
